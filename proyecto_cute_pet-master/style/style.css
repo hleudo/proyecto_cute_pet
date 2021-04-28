@@ -1,0 +1,325 @@
+/* Añadir Tipografia Monserrat */
+@font-face {
+    font-family: monserrat-bold;
+    src: url(../fond/Montserrat-Bold.ttf);
+}
+
+
+/* ------------------------------------------------------------------------------------*/
+
+/*** Contenedor nav ***/
+
+.navbar {
+    padding: 1rem 1rem;
+    background-color: #1a191e;
+    
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #fff;
+}
+
+.bg-menu {
+    background-color: #1a191e;
+}
+
+/*** Modificacion tipografia menu ***/
+
+.nav-item a {
+    font-family: monserrat-bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.active .nav-link {
+    color: #f28705!important;
+}
+
+.nav-link:hover {
+    color: #f28705!important;
+}
+
+
+
+/*** Boton donar header ***/
+.btn-done {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 25px;
+    border:none;
+    font-weight: 700;
+    font-family: monserrat-bold;
+
+}
+
+/* Underline From Left */
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #f28705!important;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+  }
+
+
+/* ------------------------------------------------------------------------------------*/
+
+
+
+/** INCRUSTAMOS COLOR CAROUSEL-CAPTION DEL SLIDER y ++ **/
+
+.carousel-caption {
+    background: linear-gradient(to right, #3f312a, #1a1a1a);
+    color: #f28705;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.carousel-caption h5 {
+    font-family: monserrat-bold;
+    font-size: 2vw;
+}
+
+.carousel-caption p {
+    color: #ffffff;
+}
+
+.btn-slider {
+    color: #fff;
+    font-family: monserrat-bold;
+}
+
+.btn-slider:hover {
+    color: #f28705;
+}
+
+/* ------------------------------------------------------------------------------------*/
+
+/*** SECCION CAT LOVER / ESPACIO COVID / DOG LOVER ***/
+
+.my_container {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.line {
+  border-right: 1px solid #ccc!important;
+}
+
+.content_cat {
+    border: 0;
+    border-radius: 0;
+}
+
+.content_cat h5 {
+    color: #f28705;
+    font-family: monserrat-bold;
+    font-weight: 700;
+
+}
+
+.btn-lovers {
+    color: #fff;
+    font-family: monserrat-bold;
+    background: linear-gradient(to right, #3f312a, #1a1a1a);
+    border: 1 solid #f28705;
+    border-radius: 0;
+}
+
+.btn-lovers:hover {
+    color: #f28705;
+}
+
+/* ------------------------------------------------------------------------------------*/
+
+/*** SECCION ADOPTA ***/
+
+.table tr {
+    color: #9e9e9e;
+}
+
+.title h3 {
+    font-family: monserrat-bold;
+    color: #f28705;
+}
+
+.title img {
+    float: left;
+    padding: 0 10px 0 0 ;
+}
+
+.content-adopta {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-pet {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card-pet .card .table {
+    margin-top: 50px;
+}
+
+.card-adopta {
+    border: 0;
+}
+
+.card-adopta .card-header {
+    background-color: transparent;
+}
+
+.card-adopta .nav-item a {
+    color: #5d5d5d;
+}
+
+.card-adopta .nav-item .nav-link.active {
+    color: #f28705;
+}
+
+
+/* ------------------------------------------------------------------------------------*/
+
+/*** SECCION SNACK / JUGUETES ***/
+
+.card-product {
+    border: 0;
+    padding-bottom: 60px;
+}
+
+.content-produc {
+    background: linear-gradient(to right, #3f312a, #1a1a1a);
+    padding: 30px 30px;
+}
+
+.card-product a {
+    text-decoration: none;
+}
+
+.card-snack {
+    color: #fff;
+}
+
+.card-snack h3 {
+    font-family: monserrat-bold;
+}
+
+.card-snack span {
+    color: #f28705;
+}
+
+.btn-product {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+/* ------------------------------------------------------------------------------------*/
+
+/*** SECCION BANNNER DONAR ***/
+
+.content-donar {
+    width: 100%;
+    background: linear-gradient(to right, #3f312a, #1a1a1a);
+    color: #fff;
+    border-radius: 0;
+}
+
+.content-donar h3 {
+    font-family: monserrat-bold;
+}
+
+.btn-donar {
+    border: 1 solid #fff;
+    color: #1a1a1a;
+    background-color: #fff;
+}
+
+/* ------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------*/
+
+
+/** PAGINA ADOPCION **/
+
+.jumbotron-fluid {
+    background: linear-gradient(to right, #3f312a, #1a1a1a);
+}
+
+.content-adopcion {
+    padding: 20px 0;
+    color: #fff;
+}
+
+.content-adopcion h1 {
+    font-family: monserrat-bold;
+}
+
+/** FOOTER **/
+
+.page-footer {
+    background-color: #1a191e;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.footer-ct {
+    padding: 40px 0;
+}
+
+.text-uppercase, .wsp {
+    font-family: monserrat-bold;
+    font-size: 30px;
+}
+
+.list-unstyled li a, .wsp {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.list-unstyled li a:hover {
+    color: #f28705;
+}
+
+.footer-copyright {
+    background: linear-gradient(to right, #3f312a, #1a1a1a);
+}
+
+/* ------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------*/
+
+
+/** PAGINA CONTACTO **/
+
+.formulario {
+    padding: 50px 0 0 0;
+}
+
+.bi {
+    margin-left: 10px;
+}
